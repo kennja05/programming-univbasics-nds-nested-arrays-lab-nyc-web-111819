@@ -26,6 +26,10 @@ def array_literal_matrix
   # Using Array literal syntax only, build a nested array that uses the data in
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
+  ENNET_HOUSE_Sorted = ENNET_HOUSE.sort
+  ENFIELD_TENNIS_ACADEMY_Sorted = ENFIELD_TENNIS_ACADEMY.sort
+  
+  [ENNET_HOUSE_Sorted, ENFIELD_TENNIS_ACADEMY_Sorted]
 end
 
 def matrix_lookup(matrix, row, column)
